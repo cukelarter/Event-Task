@@ -191,6 +191,23 @@
         <Param name="texture resolution" updates="constant" val="128" valType="num"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </ImageComponent>
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="icorr=0       # keeps track of number of correct in a row&amp;#10;breakloop_practice=0" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="icorr = 0;&amp;#10;breakloop_practice = 0;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="if breakloop_practice == 1:  # this is what actually breaks the loop&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="if ((breakloop_practice === 1)) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="if ((key_resp_practice.corr === 1)) {&amp;#10;    icorr += 1;&amp;#10;    if ((icorr &gt; 2)) {&amp;#10;        breakloop_practice = 1;&amp;#10;    }&amp;#10;} else {&amp;#10;    icorr = 0;&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if key_resp_practice.corr==1:   # if answered correctly&amp;#10;    icorr+=1                    &amp;#10;    if icorr&gt;2:                 # after (n=2)+1 correct guesses&amp;#10;        breakloop_practice=1    # breaks the loop&amp;#10;else:&amp;#10;    icorr=0                     # reset if incorrect&amp;#10;    " valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
     </Routine>
     <Routine name="instructions">
       <TextComponent name="task_instructions">
