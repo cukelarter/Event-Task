@@ -1,0 +1,296 @@
+1.1392 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.1902 	INFO 	Loaded monitor calibration from ['2020_10_01 13:01']
+8.7535 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020957E12438>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020957DD6AC8>, multiSample=False, name='window1', numSamples=2, pos=[240.0, 90.0], screen=0, size=array([1440,  900]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7538 	EXP 	window1: mouseVisible = True
+8.7539 	EXP 	window1: recordFrameIntervals = False
+8.9216 	EXP 	window1: recordFrameIntervals = True
+8.9961 	WARNING 	t of last frame was 26.35ms (=1/37)
+9.0196 	WARNING 	t of last frame was 23.44ms (=1/42)
+9.3283 	WARNING 	t of last frame was 23.52ms (=1/42)
+9.3514 	WARNING 	t of last frame was 23.11ms (=1/43)
+9.5576 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+10.6535 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.9108 	EXP 	Created std_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='std_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9117 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.9395 	EXP 	Created task_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='task_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9526 	EXP 	Created practice_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='practice_block', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Practice Block', units='height', win=Window(...), wrapWidth=1)
+10.9661 	EXP 	Created trial_instructions_practice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=30.0, italic=False, languageStyle='LTR', name='trial_instructions_practice', opacity=1, ori=0.0, pos=array([   0., -300.]), rgb=UNKNOWN, text='C = “YES”             N = “NO”', units='pix', win=Window(...), wrapWidth=500)
+10.9719 	EXP 	Created image_practice = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_practice', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.9814 	EXP 	Created experiment_block = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='experiment_block', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Experiment Block', units='height', win=Window(...), wrapWidth=1)
+10.9852 	EXP 	Created trial_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=30.0, italic=False, languageStyle='LTR', name='trial_instructions', opacity=1, ori=0.0, pos=array([   0., -300.]), rgb=UNKNOWN, text='C = “YES”             N = “NO”', units='pix', win=Window(...), wrapWidth=500)
+10.9886 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.0037 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0508 	EXP 	std_instructions: autoDraw = True
+12.3694 	DEBUG 	Read csv file with pandas: standardizingRTs.csv
+12.3711 	DEBUG 	Clearing unnamed columns from standardizingRTs.csv
+12.3714 	EXP 	Imported standardizingRTs.csv as conditions, 2 conditions, 2 params
+12.3718 	EXP 	Created sequence: random, trialTypes=2, nReps=5, seed=None
+12.3721 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimulus', "Press the 'no' key."), ('corrAns', 'n')])
+12.3841 	DATA 	Keypress: space
+12.4014 	EXP 	std_instructions: autoDraw = False
+12.4014 	EXP 	text: text = "Press the 'no' key."
+12.4014 	EXP 	text: autoDraw = True
+13.3760 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimulus', "Press the 'yes' key."), ('corrAns', 'c')])
+13.3877 	DATA 	Keypress: n
+13.4014 	EXP 	text: autoDraw = False
+13.4014 	EXP 	text: text = "Press the 'yes' key."
+13.4014 	EXP 	text: autoDraw = True
+13.8746 	EXP 	New trial (rep=1, index=0): OrderedDict([('stimulus', "Press the 'no' key."), ('corrAns', 'n')])
+13.8864 	DATA 	Keypress: c
+13.9067 	EXP 	text: autoDraw = False
+13.9067 	EXP 	text: text = "Press the 'no' key."
+13.9067 	EXP 	text: autoDraw = True
+14.1415 	EXP 	New trial (rep=1, index=1): OrderedDict([('stimulus', "Press the 'yes' key."), ('corrAns', 'c')])
+14.1531 	DATA 	Keypress: n
+14.1676 	EXP 	text: autoDraw = False
+14.1676 	EXP 	text: text = "Press the 'yes' key."
+14.1676 	EXP 	text: autoDraw = True
+14.4745 	EXP 	New trial (rep=2, index=0): OrderedDict([('stimulus', "Press the 'yes' key."), ('corrAns', 'c')])
+14.4803 	DATA 	Keypress: c
+14.5012 	EXP 	text: autoDraw = False
+14.5012 	EXP 	text: text = "Press the 'yes' key."
+14.5012 	EXP 	text: autoDraw = True
+14.7933 	EXP 	New trial (rep=2, index=1): OrderedDict([('stimulus', "Press the 'no' key."), ('corrAns', 'n')])
+14.8063 	DATA 	Keypress: n
+14.8179 	EXP 	text: autoDraw = False
+14.8179 	EXP 	text: text = "Press the 'no' key."
+14.8179 	EXP 	text: autoDraw = True
+15.6751 	EXP 	New trial (rep=3, index=0): OrderedDict([('stimulus', "Press the 'yes' key."), ('corrAns', 'c')])
+15.6925 	DATA 	Keypress: n
+15.7007 	EXP 	text: autoDraw = False
+15.7007 	EXP 	text: text = "Press the 'yes' key."
+15.7007 	EXP 	text: autoDraw = True
+16.0623 	DATA 	Keypress: c
+16.0902 	EXP 	New trial (rep=3, index=1): OrderedDict([('stimulus', "Press the 'no' key."), ('corrAns', 'n')])
+16.1201 	EXP 	text: autoDraw = False
+16.1201 	EXP 	text: text = "Press the 'no' key."
+16.1201 	EXP 	text: autoDraw = True
+16.5005 	EXP 	New trial (rep=4, index=0): OrderedDict([('stimulus', "Press the 'no' key."), ('corrAns', 'n')])
+16.5057 	DATA 	Keypress: n
+16.5177 	EXP 	text: autoDraw = False
+16.5177 	EXP 	text: text = "Press the 'no' key."
+16.5177 	EXP 	text: autoDraw = True
+16.9583 	EXP 	New trial (rep=4, index=1): OrderedDict([('stimulus', "Press the 'yes' key."), ('corrAns', 'c')])
+16.9752 	DATA 	Keypress: n
+16.9840 	EXP 	text: autoDraw = False
+16.9840 	EXP 	text: text = "Press the 'yes' key."
+16.9840 	EXP 	text: autoDraw = True
+17.4112 	DATA 	Keypress: c
+17.4349 	EXP 	text: autoDraw = False
+17.4349 	EXP 	task_instructions: autoDraw = True
+18.1168 	DATA 	Keypress: space
+18.1347 	EXP 	task_instructions: autoDraw = False
+18.1347 	EXP 	practice_block: autoDraw = True
+18.8078 	DATA 	Keypress: space
+18.8342 	DEBUG 	Read csv file with pandas: practice.csv
+18.8374 	DEBUG 	Clearing unnamed columns from practice.csv
+18.8412 	EXP 	Imported practice.csv as conditions, 20 conditions, 5 params
+18.8424 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+18.8437 	EXP 	New trial (rep=0, index=0): OrderedDict([('file', 'practice_images/family cooking.jpg'), ('stimulus', 'family cooking.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+18.8831 	EXP 	practice_block: autoDraw = False
+18.8831 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+18.8831 	EXP 	image_practice: image = 'practice_images/family cooking.jpg'
+18.8831 	EXP 	trial_instructions_practice: autoDraw = True
+18.8831 	EXP 	image_practice: autoDraw = True
+20.2409 	EXP 	New trial (rep=0, index=1): OrderedDict([('file', 'practice_images/throwing noodles.jpg'), ('stimulus', 'throwing noodles.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+20.2543 	DATA 	Keypress: c
+20.2677 	EXP 	trial_instructions_practice: autoDraw = False
+20.2677 	EXP 	image_practice: autoDraw = False
+20.2677 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+20.2677 	EXP 	image_practice: image = 'practice_images/throwing noodles.jpg'
+20.2677 	EXP 	trial_instructions_practice: autoDraw = True
+20.2677 	EXP 	image_practice: autoDraw = True
+20.8770 	EXP 	New trial (rep=0, index=2): OrderedDict([('file', 'practice_images/woman vacuuming grass.jpg'), ('stimulus', 'woman vacuuming grass.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+20.9089 	DATA 	Keypress: c
+20.9309 	EXP 	trial_instructions_practice: autoDraw = False
+20.9309 	EXP 	image_practice: autoDraw = False
+20.9309 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+20.9309 	EXP 	image_practice: image = 'practice_images/woman vacuuming grass.jpg'
+20.9309 	EXP 	trial_instructions_practice: autoDraw = True
+20.9309 	EXP 	image_practice: autoDraw = True
+21.9812 	EXP 	New trial (rep=0, index=3): OrderedDict([('file', 'practice_images/underwater skateboard.jpg'), ('stimulus', 'underwater skateboard.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+21.9941 	DATA 	Keypress: n
+22.0159 	EXP 	trial_instructions_practice: autoDraw = False
+22.0159 	EXP 	image_practice: autoDraw = False
+22.0159 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+22.0159 	EXP 	image_practice: image = 'practice_images/underwater skateboard.jpg'
+22.0159 	EXP 	trial_instructions_practice: autoDraw = True
+22.0159 	EXP 	image_practice: autoDraw = True
+22.8481 	DATA 	Keypress: n
+22.8846 	EXP 	New trial (rep=0, index=4): OrderedDict([('file', 'practice_images/man running.jpg'), ('stimulus', 'man running.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+22.9180 	EXP 	trial_instructions_practice: autoDraw = False
+22.9180 	EXP 	image_practice: autoDraw = False
+22.9180 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+22.9180 	EXP 	image_practice: image = 'practice_images/man running.jpg'
+22.9180 	EXP 	trial_instructions_practice: autoDraw = True
+22.9180 	EXP 	image_practice: autoDraw = True
+23.6402 	EXP 	New trial (rep=0, index=5): OrderedDict([('file', 'practice_images/dog pilot.jpg'), ('stimulus', 'dog pilot.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+23.6577 	DATA 	Keypress: c
+23.6680 	EXP 	trial_instructions_practice: autoDraw = False
+23.6680 	EXP 	image_practice: autoDraw = False
+23.6680 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+23.6680 	EXP 	image_practice: image = 'practice_images/dog pilot.jpg'
+23.6680 	EXP 	trial_instructions_practice: autoDraw = True
+23.6680 	EXP 	image_practice: autoDraw = True
+24.4057 	DATA 	Keypress: n
+24.4242 	EXP 	New trial (rep=0, index=6): OrderedDict([('file', 'practice_images/mowing the lawn.jpg'), ('stimulus', 'mowing the lawn.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+24.4519 	EXP 	trial_instructions_practice: autoDraw = False
+24.4519 	EXP 	image_practice: autoDraw = False
+24.4519 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+24.4519 	EXP 	image_practice: image = 'practice_images/mowing the lawn.jpg'
+24.4519 	EXP 	trial_instructions_practice: autoDraw = True
+24.4519 	EXP 	image_practice: autoDraw = True
+25.6569 	EXP 	New trial (rep=0, index=7): OrderedDict([('file', 'practice_images/looking at xray.jpg'), ('stimulus', 'looking at xray.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.6743 	EXP 	New trial (rep=0, index=8): OrderedDict([('file', 'practice_images/man with paper in mouth.jpg'), ('stimulus', 'man with paper in mouth.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.6917 	EXP 	New trial (rep=0, index=9): OrderedDict([('file', 'practice_images/parking lot.jpg'), ('stimulus', 'parking lot.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7075 	EXP 	New trial (rep=0, index=10): OrderedDict([('file', 'practice_images/buisness man working.jpg'), ('stimulus', 'buisness man working.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7192 	EXP 	New trial (rep=0, index=11): OrderedDict([('file', 'practice_images/kids playing.jpg'), ('stimulus', 'kids playing.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7295 	EXP 	New trial (rep=0, index=12): OrderedDict([('file', 'practice_images/sawing apple.jpg'), ('stimulus', 'sawing apple.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.7392 	EXP 	New trial (rep=0, index=13): OrderedDict([('file', 'practice_images/bikini woman gun.jpg'), ('stimulus', 'bikini woman gun.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.7481 	EXP 	New trial (rep=0, index=14): OrderedDict([('file', 'practice_images/giant coffee.jpg'), ('stimulus', 'giant coffee.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.7541 	EXP 	New trial (rep=0, index=15): OrderedDict([('file', 'practice_images/girl and woman_patio.jpg'), ('stimulus', 'girl and woman_patio.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7621 	EXP 	New trial (rep=0, index=16): OrderedDict([('file', 'practice_images/dog playing.jpg'), ('stimulus', 'dog playing.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7701 	EXP 	New trial (rep=0, index=17): OrderedDict([('file', 'practice_images/boss baby.jpg'), ('stimulus', 'boss bably.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.7771 	EXP 	New trial (rep=0, index=18): OrderedDict([('file', 'practice_images/balancing on umbrella.jpg'), ('stimulus', 'balancing on umbrella.jpg'), ('condition', 'implausible'), ('block', 'practice'), ('corrAns', 'n')])
+25.7851 	EXP 	New trial (rep=0, index=19): OrderedDict([('file', 'practice_images/boxer training.jpg'), ('stimulus', 'boxer training.jpg'), ('condition', 'plausible'), ('block', 'practice'), ('corrAns', 'c')])
+25.7959 	DATA 	Keypress: c
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/looking at xray.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/man with paper in mouth.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/parking lot.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/buisness man working.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/kids playing.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/sawing apple.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/bikini woman gun.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/giant coffee.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/girl and woman_patio.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/dog playing.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/boss baby.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/balancing on umbrella.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	image_practice: size = array([0.62555556, 0.46888889])
+25.8157 	EXP 	image_practice: image = 'practice_images/boxer training.jpg'
+25.8157 	EXP 	trial_instructions_practice: autoDraw = True
+25.8157 	EXP 	image_practice: autoDraw = True
+25.8157 	EXP 	trial_instructions_practice: autoDraw = False
+25.8157 	EXP 	image_practice: autoDraw = False
+25.8157 	EXP 	experiment_block: autoDraw = True
+26.7196 	DEBUG 	Read csv file with pandas: experiment.csv
+26.7220 	DEBUG 	Clearing unnamed columns from experiment.csv
+26.7413 	EXP 	Imported experiment.csv as conditions, 256 conditions, 5 params
+26.7430 	EXP 	Created sequence: random, trialTypes=256, nReps=1, seed=None
+26.7437 	EXP 	New trial (rep=0, index=0): OrderedDict([('file', 'images/business men_kick boxing.jpg'), ('stimulus', 'business men_kick boxing.jpg'), ('condition', 'Implausible'), ('block', 2), ('corrAns', 'n')])
+26.7868 	DATA 	Keypress: space
+26.8101 	EXP 	experiment_block: autoDraw = False
+26.8101 	EXP 	image: size = array([0.62555556, 0.46888889])
+26.8101 	EXP 	image: image = 'images/business men_kick boxing.jpg'
+26.8101 	EXP 	trial_instructions: autoDraw = True
+26.8101 	EXP 	image: autoDraw = True
+29.4806 	EXP 	New trial (rep=0, index=1): OrderedDict([('file', 'images/girl eating fish head.jpg'), ('stimulus', 'girl eating fish head.jpg'), ('condition', 'Implausible'), ('block', 2), ('corrAns', 'n')])
+29.5216 	DATA 	Keypress: n
+29.5340 	EXP 	trial_instructions: autoDraw = False
+29.5340 	EXP 	image: autoDraw = False
+29.5340 	EXP 	image: size = array([0.62555556, 0.46888889])
+29.5340 	EXP 	image: image = 'images/girl eating fish head.jpg'
+29.5340 	EXP 	trial_instructions: autoDraw = True
+29.5340 	EXP 	image: autoDraw = True
+30.0579 	EXP 	New trial (rep=0, index=2): OrderedDict([('file', 'images/breakfast in field.jpg'), ('stimulus', 'breakfast in field.jpg'), ('condition', 'Implausible'), ('block', 2), ('corrAns', 'n')])
+30.0994 	DATA 	Keypress: c
+30.1169 	EXP 	trial_instructions: autoDraw = False
+30.1169 	EXP 	image: autoDraw = False
+30.1169 	EXP 	image: size = array([0.62555556, 0.46888889])
+30.1169 	EXP 	image: image = 'images/breakfast in field.jpg'
+30.1169 	EXP 	trial_instructions: autoDraw = True
+30.1169 	EXP 	image: autoDraw = True
+30.3249 	EXP 	New trial (rep=0, index=3): OrderedDict([('file', 'images/woman_bikini grocery store.jpg'), ('stimulus', 'woman_bikini grocery store.jpg'), ('condition', 'Implausible'), ('block', 1), ('corrAns', 'n')])
+30.3819 	DATA 	Keypress: n
+30.4000 	EXP 	trial_instructions: autoDraw = False
+30.4000 	EXP 	image: autoDraw = False
+30.4000 	EXP 	image: size = array([0.62555556, 0.46888889])
+30.4000 	EXP 	image: image = 'images/woman_bikini grocery store.jpg'
+30.4000 	EXP 	trial_instructions: autoDraw = True
+30.4000 	EXP 	image: autoDraw = True
+30.6756 	EXP 	New trial (rep=0, index=4): OrderedDict([('file', 'images/man_hurdle.jpg'), ('stimulus', 'man_hurdle.jpg'), ('condition', 'Plausible'), ('block', 1), ('corrAns', 'c')])
+30.7278 	DATA 	Keypress: c
+30.7494 	EXP 	trial_instructions: autoDraw = False
+30.7494 	EXP 	image: autoDraw = False
+30.7494 	EXP 	image: size = array([0.62555556, 0.46888889])
+30.7494 	EXP 	image: image = 'images/man_hurdle.jpg'
+30.7494 	EXP 	trial_instructions: autoDraw = True
+30.7494 	EXP 	image: autoDraw = True
+30.8448 	EXP 	New trial (rep=0, index=5): OrderedDict([('file', 'images/swimmers starting dive.jpg'), ('stimulus', 'swimmers starting dive.jpg'), ('condition', 'Plausible'), ('block', 2), ('corrAns', 'c')])
+30.8756 	DATA 	Keypress: n
+30.9002 	EXP 	trial_instructions: autoDraw = False
+30.9002 	EXP 	image: autoDraw = False
+30.9002 	EXP 	image: size = array([0.62555556, 0.46888889])
+30.9002 	EXP 	image: image = 'images/swimmers starting dive.jpg'
+30.9002 	EXP 	trial_instructions: autoDraw = True
+30.9002 	EXP 	image: autoDraw = True
+31.1956 	DATA 	Keypress: escape
+31.4522 	EXP 	window1: mouseVisible = True
+31.4524 	DEBUG 	Saving data for EventTask ExperimentHandler
+31.4603 	INFO 	saved data to C:\Users\cukel\OneDrive\Documents\GitHub\Event-Task\data/_EventTask_2021_Jun_16_1022.psydat
+31.4663 	INFO 	saved data to 'C:\\Users\\cukel\\OneDrive\\Documents\\GitHub\\Event-Task\\data/_EventTask_2021_Jun_16_1022.csv'
